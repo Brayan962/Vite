@@ -2,6 +2,8 @@ import indexData from './pages/home';
 import galeriaData from './pages/galeria';
 import siteData from './pages/tabla.js';
 
+
+
 function context(page){
     console.log("Getting context for: " + page);
     let context = {
