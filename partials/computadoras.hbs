@@ -1,0 +1,24 @@
+<table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Marca</th>
+          <th>Modelo</th>
+          <th>Procesador</th>
+          <th>RAM</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each computadoras}}
+        <tr>
+          <td>{{id}}</td>
+          <td>{{marca}}</td>
+          <td>{{modelo}}</td>
+          <td>{{procesador}}</td>
+          <td>{{ram}}</td>
+          <td>{{precio}}</td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
